@@ -63,7 +63,6 @@ rv32i-single-cycle-processor/
 │   ├── synthesis/
 │   └── report/
 ├── hardware/
-├── images/
 ├── README.md
 ├── LICENSE
 └── .gitignore
@@ -205,4 +204,4 @@ This project is licensed under the MIT License.
 
 **Vishal Roy**
 
-GitHub: https://github.com/<your-github-username>
+GitHub: https://github.com/VishalRoy08
