@@ -106,9 +106,23 @@ Each benchmark directory contains:
 
 ## Custom Instruction Set Extension (ISE)
 
-A custom Instruction Set Extension (ISE) was designed and integrated into the processor to accelerate the student grading benchmark.
+A custom **Instruction Set Extension (ISE)** named **`GRD`** was designed and integrated into the processor to accelerate the student grading benchmark.
 
-The extension reduces the number of instructions required for grade computation, demonstrating how application-specific instructions can improve execution efficiency while maintaining compatibility with the processor architecture.
+The `GRD` instruction performs the complete grading operation in hardware by computing **1.25% of the student's marks** and comparing the result against the threshold value of **60**.
+
+- If **1.25% of the marks > 60**, the instruction returns **1**.
+- Otherwise, it returns **0**.
+
+Without the custom instruction, the grading algorithm requires multiple arithmetic, comparison, and branch instructions to perform the same operation. By replacing this sequence with a single `GRD` instruction, the processor executes the grading benchmark more efficiently.
+
+### Performance Comparison
+
+| Implementation | Approximate Clock Cycles |
+|---------------|-------------------------:|
+| Standard RV32I | ~600 cycles |
+| RV32I with `GRD` Instruction | ~400 cycles |
+
+The custom instruction reduces the execution time of the grading benchmark by approximately **33%**, demonstrating the effectiveness of application-specific instruction extensions in improving processor performance.
 
 ---
 
