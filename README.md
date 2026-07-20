@@ -60,8 +60,7 @@ rv32i-single-cycle-processor/
 ├── docs/
 │   ├── architecture/
 │   ├── waveforms/
-│   ├── synthesis/
-│   └── report/
+│   └── synthesis/
 ├── hardware/
 ├── README.md
 ├── LICENSE
