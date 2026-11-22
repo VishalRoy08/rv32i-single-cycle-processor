@@ -164,6 +164,14 @@ Open the GDS in KLayout with the SKY130 technology file (`sky130A.lyt` / `sky130
   <img src="results/images/sky130_layer_stack.png" alt="SKY130 layer stack" width="900">
 </p>
 
+### 2.5D view (KLayout, height ×8)
+
+| Layer stack (side view) | Power straps and vias |
+|---|---|
+| ![2.5D side view](results/images/layout_2.5d_side.png) | ![2.5D view](results/images/layout_2.5d.png) |
+
+Bottom to top: diffusion and poly (transistors), li1, met1, met2, met3, met4, and the thick met5 power straps, connected by vias.
+
 ---
 
 ## Known limitations
