@@ -15,5 +15,5 @@ This program is used to verify:
 
 ## Files
 
-- `fibonacci.asm` – RISC-V assembly source
-- `machine_code.mem` – Machine code loaded into instruction memory
+- `fibonacci_sequence_assembly.asm` – RISC-V assembly source
+- `fibonacci_sequence_machine_code.mem` – machine code (copy to `machine_code.mem` in the simulator's working directory to run it)

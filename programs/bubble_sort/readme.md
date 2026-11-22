@@ -15,5 +15,5 @@ This program is used to verify:
 
 ## Files
 
-- `bubble_sort.asm` – RISC-V assembly source
-- `machine_code.mem` – Machine code loaded into instruction memory
+- `bubble_sort+_assembly.asm` – RISC-V assembly source
+- `bubble_sort.mem` – machine code (copy to `machine_code.mem` in the simulator's working directory to run it)

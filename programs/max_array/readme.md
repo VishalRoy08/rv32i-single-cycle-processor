@@ -15,5 +15,5 @@ This program is used to verify:
 
 ## Files
 
-- `max_array.asm` – RISC-V assembly source
-- `machine_code.mem` – Machine code loaded into instruction memory
+- `find_maximum_in_array_machine_code.asm` – RISC-V assembly source
+- `find_maximum_in_array_machine_code.mem` – machine code (copy to `machine_code.mem` in the simulator's working directory to run it)
