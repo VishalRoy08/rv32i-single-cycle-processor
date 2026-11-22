@@ -43,3 +43,9 @@ Thumbs.db
 # Python cache (if used)
 __pycache__/
 *.pyc
+
+# OpenLane run outputs (large)
+asic/openlane/runs/
+
+# Gate-level simulation outputs
+asic/gls/logs/
