@@ -1,0 +1,21 @@
+Sign-off summary - final OpenLane run (RUN_2026-11-22_09-37-23)
+Clock period: 35.0 ns (28.6 MHz)
+----------------------------------------------------
+Die area (um^2)                   209905
+Cell instances                    11001
+Std-cell utilization              0.4609
+Total power (W)                   0.0055
+Wire length (um)                  451367
+Setup WNS, all corners (ns)       1.8846
+Setup WNS, typical tt (ns)        11.4429
+Hold WNS, all corners (ns)        0.1261
+Routing DRC errors                0
+Magic DRC errors                  0
+KLayout DRC errors                0
+LVS errors                        0
+Antenna violating nets            50
+Max slew violations               134   (ss_100C_1v60 corners only)
+Max cap violations                9
+Max fanout violations             10
+----------------------------------------------------
+Estimated all-corner Fmax: 30.2 MHz

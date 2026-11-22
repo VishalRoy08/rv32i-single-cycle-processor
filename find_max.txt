@@ -1,0 +1,13 @@
+STORE  pc=0000000c  addr=00000000  size=11  data=00000008
+STORE  pc=00000014  addr=00000004  size=11  data=ffffffeb
+STORE  pc=0000001c  addr=00000008  size=11  data=0000000f
+STORE  pc=00000024  addr=0000000c  size=11  data=fffffffd
+STORE  pc=0000002c  addr=00000010  size=11  data=0000002a
+STORE  pc=00000034  addr=00000014  size=11  data=00000011
+STORE  pc=00000068  addr=00000018  size=11  data=0000002a
+END    pc=0000006c  cycles=59  stores=7
+DATA MEMORY (bytes 0..63):
+  00000000: 08 00 00 00 eb ff ff ff 0f 00 00 00 fd ff ff ff
+  00000010: 2a 00 00 00 11 00 00 00 2a 00 00 00 00 00 00 00
+  00000020: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  00000030: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00

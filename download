@@ -1,0 +1,51 @@
+# Vivado
+.Xil/
+.cache/
+.hw/
+.ip_user_files/
+.runs/
+.sim/
+.gen/
+
+*.jou
+*.log
+*.str
+*.pb
+
+# Vivado project backups
+*.backup
+*.tmp
+
+# ModelSim / Questa
+work/
+transcript
+vsim.wlf
+modelsim.ini
+
+*.wlf
+*.vstf
+
+# Simulation generated files
+*.vcd
+*.wdb
+
+# Temporary files
+*.bak
+*.swp
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Python cache (if used)
+__pycache__/
+*.pyc
+
+# OpenLane run outputs (large)
+asic/openlane/runs/
+
+# Gate-level simulation outputs
+asic/gls/logs/

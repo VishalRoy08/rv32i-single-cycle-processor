@@ -1,0 +1,12 @@
+Post-layout gate-level simulation - final run (RUN_2026-11-22_09-37-23)
+Netlist: runs/RUN_2026-11-22_09-37-23/final/nl/riscv_core.nl.v
+Models : sky130_fd_sc_hd Verilog cell models (functional, unit delay)
+
+PASS  fibonacci    (pc=00000044  cycles=89   stores=10)
+PASS  bubble_sort  (pc=00000074  cycles=101  stores=10)
+PASS  find_max     (pc=0000006c  cycles=59   stores=7)
+PASS  grades       (pc=0000006c  cycles=68   stores=10)
+PASS  grades_acc   (pc=00000050  cycles=48   stores=10)
+----------------------------------------------
+5 / 5 programs: post-layout netlist == RTL
+(every store and the final data memory compared)
