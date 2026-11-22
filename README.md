@@ -205,6 +205,8 @@ The processor core was implemented as an ASIC layout using **OpenLane 2** and th
 | Total power | 5.5 mW |
 | DRC / LVS errors | 0 / 0 |
 | Post-layout gate-level simulation | 5 / 5 programs match RTL |
+| Antenna violating nets | 50 (open item) |
+| Max slew / cap / fanout violations | 134 (slow corner only) / 9 / 10 (open items) |
 
 Full results, configuration, design iterations and reproduction steps: [`asic/README.md`](asic/README.md).
 
